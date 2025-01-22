@@ -35,11 +35,11 @@ function playGame(move){
 
     if(result === "You Win"){
         resultDisplay.style.color = "green";
-        playerScore += 1;
+        playerScore ++;
     }
     else if(result === "You Loose"){
         resultDisplay.style.color = "red";
-        computerScore += 1; 
+        computerScore ++; 
     }
     else{
         resultDisplay.style.color = "black";
